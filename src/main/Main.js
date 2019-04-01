@@ -135,7 +135,7 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     }
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    margin: 0 17em;
+    margin: 0 14em;
     grid-row-gap: 3em;
     h1 {
       text-align: left;
