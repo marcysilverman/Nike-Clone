@@ -13,12 +13,20 @@ import best2 from '../../assets/images/best2.png';
 import best3 from '../../assets/images/best3.png';
 import styles from 'styled-components';
 
+const Disclaimer = styles.h3`
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-top: 2em;
+  letter-spacing: .05em;
+  color: #8D8D8D;
+  text-align: center;
+`;
+
 const MainSection = styles.main`
   margin: 0 4em;
 `;
 const MainPicContainer = styles.section`
   margin-top: 8em;
-  height: 80vh;
+  height: 110vh;
   background-size: cover;
   background-image: url(${pic1});
 `;
@@ -76,6 +84,9 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   }
 `;
 const TrendingContainer = styles.section`
+    h2 {
+      font-weight: 500;
+    }
   margin-top: 9em;
 font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   ul {
@@ -145,8 +156,10 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 
 export default function Main() {
   return (
+    <>
     <MainSection>
     <MainPicContainer/>
+    <Disclaimer>FOR DEMONSTRATION PURPOSES ONLY. NO COPYRIGHT INTENDED</Disclaimer>
     <ThrowbackContainer>
     <h1>Throwback Future Pack</h1>
       <ThrowbackSection>
@@ -219,5 +232,6 @@ export default function Main() {
       </div>
     </ShoppingSection>
     </MainSection>
+    </>
   );
 }
