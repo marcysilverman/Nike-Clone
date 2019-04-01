@@ -33,12 +33,12 @@ const MainPicContainer = styles.section`
 
 const ThrowbackSection = styles.ul`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   list-style: none;
   padding: 0;
   grid-row-gap: 50px;
   img {
-    width: 472px;
+    width: 450px;
     height: 600px; 
   }
 `;
