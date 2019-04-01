@@ -6,7 +6,6 @@ import nike from '../../assets/images/nike.png';
 import styles from 'styled-components';
 import {FaShoppingCart} from 'react-icons/fa';
 import 'normalize.css';
-import { globalAgent } from 'https';
 
 const TopMenu = styles.div`
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -24,6 +23,7 @@ const GlobalHeader = styles.header`
   width: 100%;
   background: white;
   top: 0;
+  height: 120px;
 `;
 const NavMenuLeft = styles.ul`
   padding-left: 0;
@@ -78,6 +78,7 @@ const ConverseLogo = styles.img`
 
 
 const NikeLogo = styles.img`
+  margin-top: .5em;
   width: 4rem;
   height: 1.4rem;
 `;
@@ -109,7 +110,7 @@ const MainMenu = styles.li`
 
 const Search = styles.input`
   float: right;
-  margin-right: 2em;
+  margin-right: 3em;
   margin-top: .3em;
   padding: .6em;
 `;
