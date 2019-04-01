@@ -37,10 +37,9 @@ const ThrowbackSection = styles.ul`
   list-style: none;
   padding: 0;
   grid-row-gap: 50px;
-  img {
-    width: 450px;
-    height: 600px; 
   }
+  img {
+    width: 97%;
 `;
 
 const ThrowbackContainer = styles.section`
